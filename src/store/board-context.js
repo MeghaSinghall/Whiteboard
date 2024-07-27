@@ -10,6 +10,7 @@ const boardContext = createContext({
   changeToolHandler: () => {},
   boardMouseMoveHandler: () => {},
   boardMouseUpHandler: () => {},
+  
 });
 
 export default boardContext;
