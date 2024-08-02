@@ -5,6 +5,7 @@ export const isPointCloseToLine = (x1, y1, x2, y2, pointX, pointY) => {
   const distToEnd = distanceBetweenPoints(x2, y2, pointX, pointY);
   const distLine = distanceBetweenPoints(x1, y1, x2, y2);
   return Math.abs(distToStart + distToEnd - distLine) < ELEMENT_ERASE_THRESHOLD;
+  
 };
 
 export const isNearPoint = (x, y, x1, y1) => {
