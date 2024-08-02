@@ -14,6 +14,7 @@ import toolboxContext from "../../store/toolbox-context";
 import boardContext from "../../store/board-context";
 
 const Toolbox = () => {
+  
   const { activeToolItem } = useContext(boardContext);
   const { toolboxState, changeStroke, changeFill, changeSize } =
     useContext(toolboxContext);
