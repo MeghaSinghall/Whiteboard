@@ -5,6 +5,7 @@ import { COLORS, TOOLBOX_ACTIONS, TOOL_ITEMS } from "../constants";
 function toolboxReducer(state, action) {
   switch (action.type) {
     case TOOLBOX_ACTIONS.CHANGE_STROKE: {
+      
       const newState = { ...state };
       newState[action.payload.tool].stroke = action.payload.stroke;
       return newState;
