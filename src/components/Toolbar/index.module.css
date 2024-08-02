@@ -14,4 +14,5 @@
 
 .toolItem.active {
   @apply bg-blue-200 text-gray-700 rounded;
+  
 }
