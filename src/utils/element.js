@@ -25,6 +25,7 @@ export const createElement = (
     stroke,
     size,
   };
+  
   let options = {
     seed: id + 1, // id can't be zero
     fillStyle: "solid",
