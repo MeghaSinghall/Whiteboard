@@ -51,6 +51,7 @@ export const STROKE_TOOL_TYPES = [
   TOOL_ITEMS.RECTANGLE,
   TOOL_ITEMS.CIRCLE,
   TOOL_ITEMS.TEXT,
+  
 ];
 export const SIZE_TOOL_TYPES = [
   TOOL_ITEMS.LINE,
@@ -58,6 +59,7 @@ export const SIZE_TOOL_TYPES = [
   TOOL_ITEMS.RECTANGLE,
   TOOL_ITEMS.CIRCLE,
   TOOL_ITEMS.TEXT,
+  
 ];
 
 export const ARROW_LENGTH = 20;
