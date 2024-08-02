@@ -30,6 +30,7 @@ const boardReducer = (state, action) => {
         clientY,
         clientX,
         clientY,
+        
         { type: state.activeToolItem, stroke, fill, size }
       );
       const prevElements = state.elements;
